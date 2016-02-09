@@ -30,5 +30,5 @@ docker run -d \
         -v ~/.aws:/root/.aws \
         --link teamcity:teamcity \
         --name teamcity-agent \
-        teamcity-agent
+        teamcity-agent:awscli
 ```
